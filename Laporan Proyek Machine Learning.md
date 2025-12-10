@@ -3,11 +3,11 @@
 **Judul Proyek:**  
 [Prediksi Jumlah Share Artikel Online Menggunakan Machine Learning]
 
-**Nama Mahasiswa:** [Nama Lengkap]  
-**NIM:** [Nomor Induk Mahasiswa]  
-**Program Studi:** [Teknologi Informasi / Rekayasa Perangkat Lunak]  
-**Mata Kuliah:** [Nama Mata Kuliah]  
-**Dosen Pengampu:** [Nama Dosen]  
+**Nama Mahasiswa:** FAUZAN FATHIN ZAKY  
+**NIM:** 234311014  
+**Program Studi:** Rekayasa Perangkat Lunak  
+**Mata Kuliah:** DATA SCIENCE
+**Dosen Pengampu:** GUS NANANG SAIFUDDIN  
 **Tahun Akademik:** [Tahun/Semester]
 **Link GitHub Repository:** [URL Repository]
 **Link Video Pembahasan:** [URL Repository]
@@ -750,4 +750,5 @@ nltk==3.8.1           # untuk NLP
 transformers==4.30.0  # untuk BERT, dll
 
 ```
+
 
