@@ -1,7 +1,7 @@
 ## INFORMASI PROYEK
 
 **Judul Proyek:**  
-[(Contoh: "Klasifikasi Penyakit Daun Menggunakan CNN", "Prediksi Harga Rumah dengan Machine Learning", "Analisis Sentimen Ulasan Produk")]
+[Prediksi Jumlah Share Artikel Online Menggunakan Machine Learning]
 
 **Nama Mahasiswa:** [Nama Lengkap]  
 **NIM:** [Nomor Induk Mahasiswa]  
@@ -750,3 +750,4 @@ nltk==3.8.1           # untuk NLP
 transformers==4.30.0  # untuk BERT, dll
 
 ```
+
