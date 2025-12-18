@@ -3,7 +3,7 @@
 
 ## 👤 Informasi
 - **Nama:** FAUZAN FATHIN ZAKY  
-- **Repo:** [...]  
+- **Repo:** https://github.com/fauzan123ae/project-data-science.git
 - **Video:** [...]  
 
 ---
