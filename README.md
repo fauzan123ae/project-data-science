@@ -96,16 +96,16 @@ project/
 ### Hasil Singkat
 | Model | RMSE(Lebih Rendah Lebih Baik) | R2 Score | Catatan |
 |-------|--------|---------|---------|
-| Baseline | [...] | |
-| Advanced | [...] | |
-| Deep Learning | [...] | |
+| Baseline(Linear Reg) |0.8649|0.1274|Performa standar, underfitting.|
+| Advanced(Random Forest) |0.8488|0.1595|Model Terbaik. Paling stabil dan akurat.|
+| Deep Learning(MLP) |0.8558|0.1457|Lebih baik dari baseline, tapi sedikit di bawah RF.|
 
 ---
 
 # 7. 🏁 Kesimpulan
-- Model terbaik: [...]  
-- Alasan: [...]  
-- Insight penting: [...]  
+- Model terbaik: Random Forest Regressor.
+- Alasan:Random Forest terbukti paling tangguh (robust) terhadap data outlier dan mampu menangkap interaksi non-linear yang kompleks antar fitur dibandingkan Linear Regression. Meskipun Deep Learning cukup kompetitif, Random Forest memberikan hasil yang sedikit lebih baik dengan waktu komputasi yang jauh lebih efisien pada data tabular ini.
+- Insight penting:Faktor terpenting yang mempengaruhi viralitas adalah tren kata kunci historis (kw_avg_avg) dan topik artikel (LDA).
 
 ---
 
@@ -119,3 +119,4 @@ project/
 
 # 9. 🔁 Reproducibility
 Gunakan environment:
+pip install -r requirements.txt
