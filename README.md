@@ -118,5 +118,7 @@ project/
 ---
 
 # 9. 🔁 Reproducibility
-Gunakan environment:
+Gunakan environment Python 3.10 dan install dependencies:
+```python
 pip install -r requirements.txt
+```
