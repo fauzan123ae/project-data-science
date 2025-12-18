@@ -76,16 +76,17 @@ project/
 ---
 
 # 4. 🔧 Data Preparation
-- Cleaning (missing/duplicate/outliers)  
-- Transformasi (encoding/scaling)  
-- Splitting (train/val/test)  
+- Cleaning Menghapus kolom metadata yang tidak prediktif (url, timedelta). Tidak ditemukan missing values.  
+- Transformasi Mengaplikasikan np.log1p pada kolom target (shares) karena distribusinya sangat miring (right-skewed) dengan banyak outlier.
+- Splitting Membagi data menjadi 80% Training dan 20% Testing.
+- Scaling: Menggunakan StandardScaler untuk menstandarisasi fitur input agar memiliki rata-rata 0 dan variansi 1 (wajib untuk Deep Learning dan Linear Regression).
 
 ---
 
 # 5. 🤖 Modeling
-- **Model 1 – Baseline:** [...]  
-- **Model 2 – Advanced ML:** [...]  
-- **Model 3 – Deep Learning:** [...]  
+- **Model 1 – Baseline (Linear Regression):** Model statistik sederhana untuk menetapkan standar performa minimum.
+- **Model 2 – Advanced ML (Random Forest Regressor):** Model ensemble berbasis pohon keputusan. Dikonfigurasi dengan n_estimators=100 dan max_depth=20. Dipilih karena kemampuannya menangkap hubungan non-linear.  
+- **Model 3 – Deep Learning(MLP):** Arsitektur Neural Network dengan 3 Hidden Layers (128, 64, 32 neurons) dan Dropout untuk mencegah overfitting. Dilatih selama 50 epoch dengan Early Stopping. 
 
 ---
 
@@ -93,8 +94,8 @@ project/
 **Metrik:** Accuracy / F1 / MAE / MSE (pilih sesuai tugas)
 
 ### Hasil Singkat
-| Model | Score | Catatan |
-|-------|--------|---------|
+| Model | RMSE(Lebih Rendah Lebih Baik) | R2 Score | Catatan |
+|-------|--------|---------|---------|
 | Baseline | [...] | |
 | Advanced | [...] | |
 | Deep Learning | [...] | |
